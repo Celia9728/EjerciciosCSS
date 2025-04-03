@@ -1,0 +1,19 @@
+ul {
+  list-style: none;
+}
+
+li {
+  width: 150px;
+  background-color: blue;
+  text-align: center;
+  margin: 2px;
+
+  &:hover {
+    border: 1px solid red;
+  }
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}

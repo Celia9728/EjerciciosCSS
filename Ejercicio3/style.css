@@ -1,0 +1,15 @@
+h2::first-letter {
+  font-size: 2em;
+}
+
+h2 + p::first-line {
+  font-weight: bold;
+}
+
+a::before {
+  content: '→';
+}
+
+abbr::after {
+  content: 'abr';
+}
