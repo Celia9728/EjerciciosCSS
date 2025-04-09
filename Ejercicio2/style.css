@@ -2,14 +2,19 @@ ul {
   list-style: none;
 }
 
-li {
+li {    
   width: 150px;
   background-color: blue;
   text-align: center;
   margin: 2px;
 
   &:hover {
-    border: 1px solid red;
+    border: 2px solid red;
+  }
+
+  &:focus {
+    border: 2px solid red;
+
   }
 }
 
